@@ -1,0 +1,31 @@
+{
+  "name": "dotenv-parents",
+  "version": "1.0.0",
+  "description": "Load .env from the current directory or its parents",
+  "keywords": [
+    "dotenv"
+  ],
+  "main": "dist/src/index.js",
+  "types": "types/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itslukej/dotenv-parents.git"
+  },
+  "author": "Luke James <me@lukej.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itslukej/dotenv-parents/issues"
+  },
+  "homepage": "https://github.com/itslukej/dotenv-parents#readme",
+  "devDependencies": {
+    "@types/node": "^12.12.31",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
